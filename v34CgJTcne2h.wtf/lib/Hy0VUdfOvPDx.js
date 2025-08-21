@@ -54,7 +54,7 @@ function mainloop() {
 
     // Update the titlebar according to the score.
     // Only update on change though, to avoid flickering on iOS.
-    const title = `Longcat is lo${'o'.repeat(the_physics.score)}ng!`;
+    const title = `Longpengu is lo${'o'.repeat(the_physics.score)}ng!`;
     if (document.title != title) {
       document.title = title;
     }
